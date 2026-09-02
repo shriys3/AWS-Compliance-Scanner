@@ -25,7 +25,7 @@ When I first ran the scanner against a newly created AWS account, it caught two 
 
 **Before — 4/6 passing**
 
-insert before pic here
+<img width="988" height="442" alt="before" src="https://github.com/user-attachments/assets/beb5c297-a4b8-430c-ac00-cc3383aecddb" />
 
 - No IAM password policy was set
 - CloudTrail not enabled
@@ -34,7 +34,8 @@ I fixed both directly in the AWS console by changing the password policy to a 14
 
 **After — 6/6 passing**
 
-insert after scan pic here 
+<img width="909" height="359" alt="after" src="https://github.com/user-attachments/assets/f28ce70b-57d9-4c68-8ec9-7f54b389ba41" />
+
 
 Re-running the same script after making those changes was a useful way to confirm the fixes actually took effect.
 
