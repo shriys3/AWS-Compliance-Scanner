@@ -12,10 +12,10 @@ Manual security audits (checking IAM settings, S3 permissions, security groups o
 |---|---|
 | CIS 1.5 | Root account has MFA enabled |
 | CIS 1.4 | No root account access keys exist |
-| CIS 1.16 | IAM password policy meets minimum length/complexity requirements |
-| CIS 2.1 | CloudTrail is enabled across all regions |
+| CIS 1.8 | IAM password policy meets minimum length/complexity requirements |
+| CIS 3.1 | CloudTrail is enabled across all regions |
 | Custom (S3) | All S3 buckets have Block Public Access fully enabled |
-| CIS 5.1 / 5.2 | No security groups allow unrestricted SSH/RDP ingress from `0.0.0.0/0` |
+| CIS 5.2 | No security groups allow unrestricted SSH/RDP ingress from `0.0.0.0/0` |
 
 Each check queries live AWS account data via boto3, evaluates it against the control's requirement, and logs a pass/fail result with the underlying evidence and (if failed) a specific remediation step.
 
