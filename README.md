@@ -8,7 +8,7 @@ Manual security audits (checking IAM settings, S3 permissions, security groups o
 
 ## What it checks
 
-| Control | Description |
+| Control (v1.4.0) | Description |
 |---|---|
 | CIS 1.5 | Root account has MFA enabled |
 | CIS 1.4 | No root account access keys exist |
